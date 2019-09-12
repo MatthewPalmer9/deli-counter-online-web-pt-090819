@@ -5,7 +5,8 @@ def line(array)
     count = 1 
     currLine = "The line is currently: "
     while count < array.length 
-      puts "The line is currently: " 
+      puts "The line is currently: " + "#{count}. "
+      count += 1
     end
   end
 end
