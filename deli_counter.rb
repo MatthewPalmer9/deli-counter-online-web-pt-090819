@@ -20,4 +20,5 @@ end
 def take_a_number(array, name)
   array.push(name)
   greeting = "Welcome, #{name}. You are number " + (array.find_index(name) + 1).to_s + " in line."
+  puts greeting
 end 
