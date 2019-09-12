@@ -9,6 +9,6 @@ def line(array)
       currentLine += "#{pos}. " + array[count]
       count += 1 
     end
-    return currentLine
+    return currentLine(0..-2).join(" ") + currne
   end
 end
