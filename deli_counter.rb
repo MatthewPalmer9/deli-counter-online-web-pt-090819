@@ -6,7 +6,7 @@ def line(array)
     count = 0
     while count < array.length
       currentLine = "The line is currently: " 
-      currentLine += "#{pos} " + array[count]
+      currentLine += "#{pos}. " + array[count]
       count += 1 
     end
     return currentLine
