@@ -8,5 +8,6 @@ def line(array)
       currentLine += "#{count} " + array[count-1]
       count += 1 
     end
+    return currentLine
   end
 end
