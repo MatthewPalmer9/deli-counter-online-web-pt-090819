@@ -19,4 +19,5 @@ end
 
 def take_a_number(array, name)
   array.push(name)
+  greeting = "Welcome, #{name}. You are number " + 
 end 
