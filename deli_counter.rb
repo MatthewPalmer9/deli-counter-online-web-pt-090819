@@ -8,5 +8,6 @@ def line(array)
       currLine += "#{count}. "
       count += 1
     end
+    return currLine
   end
 end
