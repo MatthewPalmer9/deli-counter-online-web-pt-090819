@@ -1,3 +1,5 @@
+katz_deli = []
+
 def line(array)
   if array.length < 1 
     puts "The line is currently empty."
@@ -14,3 +16,7 @@ def line(array)
     puts currLine
   end
 end
+
+def take_a_number(array, name)
+  array.push(name)
+end 
