@@ -9,6 +9,8 @@ def line(array)
       currLine += "#{count}. " + array[count-1]
       count += 1
     end
-    puts currLine
+    newLine = currLine.split()
+    finalLine = newLine[0..-2].join(" ")
+    puts finalLine
   end
 end
