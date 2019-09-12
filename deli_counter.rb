@@ -10,7 +10,7 @@ def line(array)
       count += 1
       pos += 1
     end
-    currLine += "#{count}. " + array[-1]
+    currLine += "#{pos}. " + array[-1]
     puts currLine
   end
 end
