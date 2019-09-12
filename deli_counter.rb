@@ -25,5 +25,6 @@ end
 
 def now_serving(array)
   if array.first()
-  serving = array.first()
+    puts "Now serving " + array.first()
+    array.shift()
   
