@@ -6,5 +6,6 @@ def line(array)
     currLine = "The line is currently: "
     while count < array.length 
       puts "The line is currently: " 
+    end
   end
 end
