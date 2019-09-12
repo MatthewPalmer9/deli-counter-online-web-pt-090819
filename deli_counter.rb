@@ -2,8 +2,11 @@ def line(array)
   if array.length < 1 
     puts "The line is currently empty."
   elsif array.length >= 1
-    count = 0
-    puts "The line is currently: " + array.each(){|person| 
-      array[count+1].index
-    }
+    count = 1
+    currentLine = "The line is currently: "
+    while count < array.length
+      currentLine += "#{count} " + array[count-1]
+      count += 1 
+    end
+  end
 end
