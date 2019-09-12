@@ -5,7 +5,6 @@ def line(array)
     count = 1 
     currLine = "The line is currently: "
     while count < array.length
-      array[0..-2].
       currLine += "#{count}. "
       count += 1
     end
