@@ -4,8 +4,8 @@ def line(array)
   elsif array.length >= 1
     pos = 1
     count = 0
+    currentLine = "The line is currently: " 
     while count < array.length
-      currentLine = "The line is currently: " 
       currentLine += "#{pos}. " + array[count]
       count += 1 
     end
