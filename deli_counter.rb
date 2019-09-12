@@ -28,5 +28,7 @@ def now_serving(array)
     puts "Now serving " + array.first()
     array.shift()
   else
-    puts "There os "
+    puts "There is nobody waiting to be served!"
+  end
+end
   
