@@ -11,5 +11,6 @@ def line(array)
       pos += 1
     end
     currLine += "#{count}. " + array[-1]
+    puts currLine
   end
 end
