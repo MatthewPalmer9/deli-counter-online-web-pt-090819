@@ -27,4 +27,6 @@ def now_serving(array)
   if array.first()
     puts "Now serving " + array.first()
     array.shift()
+  else
+    puts "There os "
   
